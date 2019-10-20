@@ -21,7 +21,7 @@ function equacaosegundograu()
   else if(delta > 0)
   {  
     let x1 = (-vb+Math.sqrt(delta))/(2*va)
-    let x2 = (-vb+Math.sqrt(delta))/(2*va)
+    let x2 = (-vb-Math.sqrt(delta))/(2*va)
     resultado.textContent = "possui duas raízes reais. x1 = " + x1 + " e x2 = " + x2
   }
 }
