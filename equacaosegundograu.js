@@ -12,16 +12,16 @@ function equacaosegundograu()
   let delta = Math.pow(vb,2) - 4*va*vc
   
   if(delta < 0)
-    resultado.textContent = "não possui raízes reais."
+    resultado.textContent = "Não possui raízes reais."
   else if(delta == 0)
   {
     let x = -vb/(2*va)
-    resultado.textContent = "possui uma raíz real. Ela é " + x
+    resultado.textContent = "Possui uma raíz real. Ela é " + x
   }
   else if(delta > 0)
   {  
     let x1 = (-vb+Math.sqrt(delta))/(2*va)
     let x2 = (-vb-Math.sqrt(delta))/(2*va)
-    resultado.textContent = "possui duas raízes reais. x1 = " + x1 + " e x2 = " + x2
+    resultado.textContent = "Possui duas raízes reais. x1 = " + x1 + " e x2 = " + x2
   }
 }
