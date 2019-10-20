@@ -15,7 +15,7 @@ function equacaosegundograu()
     resultado.textContent = "não possui raízes reais."
   else if(delta == 0)
   {
-    let x = (-vb+Math.sqrt(delta))/(2*va)
+    let x = -vb/(2*va)
     resultado.textContent = "possui uma raíz real. Ela é " + x
   }
   else if(delta > 0)
